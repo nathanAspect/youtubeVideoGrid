@@ -1,0 +1,71 @@
+body{
+    font-family: 'Roboto', 'Arial';
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 0px;
+    padding-top: 80px;
+    padding-left: 72px;    
+}
+.whole{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    padding: 20px;
+
+}
+.thumbNaipPic, .description{
+    width: 100%;
+}
+.thumbNailPic img{
+    width: 100%;
+}
+.description{
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.channelPic img{
+    width: 100%;
+    border-radius: 50%;
+}
+.channelPic{
+    width: 100%;
+}
+.channelStatus{
+    margin-left: 10px;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.status{
+    font-size: 12px;
+    color: #606060;
+}
+.s1{
+    margin-bottom: 0;
+    margin-top:8px;
+}
+.s2{
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+.thumbNailPic{
+    position: relative;
+}
+.thumbNailPic div{
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    background-color: black;
+    color: white;
+    padding: 2px 4px;
+    font-size: 12px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    border-radius: 2px;
+}

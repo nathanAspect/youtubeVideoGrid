@@ -1,0 +1,28 @@
+.side{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 72px;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+    padding-top: 5px;
+}
+.sideBar{
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.sideBar:hover{
+    background-color: rgb(236, 236, 236);
+}
+.sideBar img{
+    width: 24px;
+}
+.sideBar p{
+    font-size: 10px;
+    color: rgb(33, 37, 41);
+}
